@@ -1,7 +1,8 @@
 #lang racket/base
 
 (require slideshow
-         racket/stxparam)
+         racket/stxparam
+         racket/block)
 
 (provide slide/staged
          staged stage stage-name
