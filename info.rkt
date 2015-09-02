@@ -2,7 +2,12 @@
 
 (define collection "slideshow")
 
-(define deps '("slideshow-lib"))
+(define deps '("base" "pict-lib" "slideshow-lib"))
+
+(define build-deps '("scribble-lib"
+                     "pict-doc"
+                     "racket-doc"
+                     "slideshow-doc"))
 
 (define pkg-authors '(stamourv cce))
 
