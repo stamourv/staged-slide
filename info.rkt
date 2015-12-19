@@ -14,4 +14,4 @@
 (define version "1.0")
 
 (define scribblings
-  '(("scribblings/staged-slide.scrbl")))
+  '(("scribblings/staged-slide.scrbl" () ("Slideshow Libraries"))))
